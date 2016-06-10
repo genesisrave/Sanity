@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+
+<main xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="schema2.xsd">
+
+<testcase interface="ANY">
+    <name>RAM Stress Test</name>
+    <description>
+        Tests the NAND RAM Memory read/write stress.
+    </description>
+    <author>Roderick_S1</author>
+    <setup>sleep 20</setup>
+    <dldfile>RAMstress.DLD</dldfile>
+    <script>IOServer.pl</script>
+</testcase>
+
+</main>

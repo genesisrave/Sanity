@@ -1,0 +1,34 @@
+"ethernet.c", line 104: Warning:  #177-D: variable "retval" was declared but never referenced
+      int status, retval, cnt, temp_id, main_tid, port_num, host_port, x, loop_cnt, test_cnt;
+                  ^
+"ethernet.c", line 104: Warning:  #177-D: variable "temp_id" was declared but never referenced
+      int status, retval, cnt, temp_id, main_tid, port_num, host_port, x, loop_cnt, test_cnt;
+                               ^
+"ethernet.c", line 104: Warning:  #177-D: variable "main_tid" was declared but never referenced
+      int status, retval, cnt, temp_id, main_tid, port_num, host_port, x, loop_cnt, test_cnt;
+                                        ^
+"ethernet.c", line 104: Warning:  #177-D: variable "port_num" was declared but never referenced
+      int status, retval, cnt, temp_id, main_tid, port_num, host_port, x, loop_cnt, test_cnt;
+                                                  ^
+"ethernet.c", line 105: Warning:  #177-D: variable "buff2" was declared but never referenced
+      char term_type[10], eth_sts[4], buff2[128], output_buff[64], input_buff[64], SerNo[11], SendMsg[2*8192];
+                                      ^
+"ethernet.c", line 105: Warning:  #177-D: variable "output_buff" was declared but never referenced
+      char term_type[10], eth_sts[4], buff2[128], output_buff[64], input_buff[64], SerNo[11], SendMsg[2*8192];
+                                                  ^
+"ethernet.c", line 105: Warning:  #177-D: variable "input_buff" was declared but never referenced
+      char term_type[10], eth_sts[4], buff2[128], output_buff[64], input_buff[64], SerNo[11], SendMsg[2*8192];
+                                                                   ^
+"ethernet.c", line 106: Warning:  #177-D: variable "info" was declared but never referenced
+      char info[4], code;
+           ^
+"ethernet.c", line 107: Warning:  #177-D: variable "ob" was declared but never referenced
+      struct Opn_Blk ob;
+                     ^
+"ethernet.c", line 245: Warning:  #177-D: label "CLOSE_ETH" was declared but never referenced
+  	CLOSE_ETH:		
+  	^
+"ethernet.c", line 552: Warning: C3017W: timer may be used before being set
+    int iRet, timeout, timer;
+                       ^
+ethernet.c: 11 warnings, 0 errors
